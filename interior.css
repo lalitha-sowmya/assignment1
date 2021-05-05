@@ -1,0 +1,150 @@
+h1{
+    color: white;
+    font-size: 85px;
+    margin-top: 150px;
+}
+a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:rgb(13, 230, 13);
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+}
+a.left:hover:before {
+    visibility: visible;
+    width: 100%;
+  }
+.div-1{
+    /*color: white;*/
+    width: 400px;
+    height: 20px;
+    display: inline;
+    position:absolute;
+    right: 70px;
+     }
+.div-2{
+    color: white;
+    width: 360px;
+    height: 50px;
+    display: inline;
+    position:absolute;
+    right: 40px;
+}
+.div-3{
+    color: white;
+    width: 250px;
+    height: 20px;
+    display: inline;
+    position:absolute;
+    right: 50px;
+
+}
+.div-4{
+    color: white;
+    width: 170px;
+    height: 20px;
+    display: inline;
+    position:absolute;
+    right: 50px;
+}
+.div-5{
+    color: white;
+    width: 70px;
+    height: 20px;
+    display: inline;
+    position:absolute;
+    right: 50px;
+}
+/*
+.div-1:hover{
+    text-decoration: underline;
+    text-decoration-color:   rgba(8, 226, 8, 0.904);
+    text-decoration-thickness:3px;
+    transition-timing-function:cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: 2s;
+    transition-duration: 2s;
+}
+.div-2:hover{
+    text-decoration: underline;
+    transition:3.s;
+    text-decoration-color:  rgba(8, 226, 8, 0.904);
+    text-decoration-thickness:3px;
+    transition-timing-function:cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: 2s;
+    transition-duration: 2s;
+}
+.div-3:hover{
+    text-decoration: underline;
+    text-decoration-color:   rgba(8, 226, 8, 0.904);
+    text-decoration-thickness:3px;
+    transition-timing-function:cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: 2s;
+    transition-duration: 2s;
+}
+.div-4:hover{
+    text-decoration: underline;
+    text-decoration-color: rgba(8, 226, 8, 0.904);
+    text-decoration-thickness:3px;
+    transition-timing-function:cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: 2s;
+    transition-duration: 2s;
+}
+.div-5:hover{
+    text-decoration: underline;
+    text-decoration-color:  rgba(8, 226, 8, 0.904);
+    text-decoration-thickness:3px;
+    transition-timing-function:cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    transition: 2s;
+    transition-duration: 2s;
+}
+*/
+p{
+  font-size: 25px;
+}
+.button
+{
+    border-radius: 25px;
+    border-color: rgba(8, 226, 8, 0.904);
+    padding: 12px 30px;
+    font-size: 16px;
+    width: 200px;
+}
+/*.button2{
+    border-radius: 25px;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+     text-align: center;
+     width: 200px;
+    
+}*/
+/*
+.button1:hover{
+  background-color: rgb(79, 146, 79);
+  opacity: 1;
+  transition:3.0s;
+  transition-duration: 1s;
+    transition-timing-function: ease-in;
+}*/
+.button:hover{
+    background-color: green;
+    opacity: 1;
+   transition-timing-function:cubic-bezier(1, 0, 0, 1);
+    transition: 5s;
+    transition-duration: 3s;
+   
+}
+/*.button2:hover{
+    transition-duration: 5s;
+    background-color: red;
+    text-decoration: none;
+  }
